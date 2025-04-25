@@ -46,7 +46,7 @@ public class Main {
 
         int[] accountingBookAverage = {2215, 326, 12400, 16100, 3456};
         sum = 0;
-        int weekNum = 4;
+        int weekNum = accountingBookAverage.length;
         double averageWeekExpenses = 0.0;
         for (int expenses : accountingBookAverage) { // цикл for each
             sum += expenses;
